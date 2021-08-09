@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* section with id first */
+.first{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#cycle{
+    border: 2px solid red;
+    height: 350px;
+    width: 580px;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-bottom: -4px;
+
+}
+#truck{
+    border: 2px solid red;
+    height: 350px;
+    width: 580px;
+    margin-left: 15px;
+    margin-bottom: -4px;
+}
+.cycle span{
+    display: block;
+    margin-left: 40px;
+    border: 2px solid green;
+    width: 565px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+.truck span{
+    display: block;
+    margin-left: 15px;
+    border: 2px solid green;
+    width: 565px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+.cycle span:hover{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+.truck span:hover{
+    background-color: lightsalmon;
+    cursor: pointer;
+}
