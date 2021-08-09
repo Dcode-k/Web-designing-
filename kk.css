@@ -59,7 +59,7 @@
 }
 /* section with id second */
 .second{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 105px
     
 }
@@ -76,7 +76,7 @@
     opacity:0.5;
 }
 .head{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,15 +118,15 @@
     width: 50px;
 }
 .boxes{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: grid;
     grid-gap: 2rem;
     
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     padding-top: 50px;
 }
 .box{
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     background-color: white;
 }
 #first{
@@ -134,8 +134,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 396px;
+    /* height: 280px;
+    width: 396px; */
     margin-left: 15px;
     
 
@@ -145,24 +145,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 396px;
+    /* height: 280px;
+    width: 396px; */
 }
 #third{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 396px;
+    /* height: 280px;
+    width: 396px; */
+    margin-right: 15px;
 }
 #fourth{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 396px;
+    /* height: 280px;
+    width: 396px; */
     margin-left: 15px;
 }
 #fifth{
@@ -170,16 +171,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 396px;
+    /* height: 280px;
+    width: 396px; */
 }
 #sixth{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 396px;
+    /* height: 280px;
+    width: 396px; */
+    margin-right: 15px;
 }
 .box .bold{
     font-weight: bold;
